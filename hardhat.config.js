@@ -17,7 +17,8 @@ const COINMARKETCAP_API_KEY = process.env.COINMARKETCAP_API_KEY
 module.exports = {
     defaultNetwork: "hardhat",
     networks: {
-        hardhat: {
+        localhost: {
+            //or hardhat
             chainId: 31337,
         },
         goerli: {
